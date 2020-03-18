@@ -1,3 +1,11 @@
+// ATMEL ATTINY85
+//
+//                  +-\/-+
+//            RST  1|    |8  Vcc
+//            PB3  2|    |7  PB2
+//            PB4  3|    |6  PB1
+//            GND  4|    |5  PB0
+//                  +----+ 
 void setup() {
   pinMode(0,OUTPUT);   
   pinMode(1,OUTPUT); 
